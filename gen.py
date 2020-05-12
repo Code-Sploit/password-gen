@@ -1,2 +1,2 @@
 import os
-os.popen("python src/generator.py")
+os.system("python src/generator.py")
