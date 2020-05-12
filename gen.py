@@ -1,2 +1,2 @@
 import os
-os.system("python src/generator.py")
+os.system("python3 src/generator.py")
