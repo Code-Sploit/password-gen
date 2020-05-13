@@ -25,15 +25,15 @@ def main():
         elif (eags == "A"):
             amount = input(str("How many passwords should be generated? "))
             for i in range(1,int(amount) + 1):
-                print("Password " + str(i) + ": " + random.choice(wordlist) + random.choice(chl))
+                print("Password " + str(i) + ": " + random.choice(wordlist) + random.choice(chl)) + random.choice(ciphersl)
         elif (eags == "G"):
             amount = input(str("How many passwords should be generated? "))
             for i in range(1,int(amount) + 1):
-                print("Password " + str(i) + ": " + random.choice(wordlist) + random.choice(chl) + random.choice(ciphersl))
+                print("Password " + str(i) + ": " + random.choice(ciphersl) + random.choice(wordlist) + random.choice(chl) + random.choice(ciphersl))
         elif (eags == "S"):
             amount = input(str("How many passwords should be generated? "))
             for i in range(1,int(amount) + 1):
-                print("Password " + str(i) + ": " + random.choice(chl) + random.choice(wordlist) + random.choice(chl) + random.choice(ciphersl) + random.choice(wordlist))
+                print("Password " + str(i) + ": " + random.choice(chl) + random.choice(wordlist) + random.choice(chl) + random.choice(ciphersl) + random.choice(wordlist)) + random.choice(chl)
         elif (eags == "Q"):
             print("Quitting... ")
             stop = True
