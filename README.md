@@ -3,7 +3,7 @@
 
 # INSTALL
   1) python install.py
-  2) # It's now installing
+  2) It's now installing
   3) Done
 
 # GENERATE A PASSWORD
