@@ -1,7 +1,10 @@
 # PYTHON PASSWORD GENERATOR
 
 
-
+# INSTALL
+  1) python install.py
+  2) # It's now installing
+  3) Done
 
 # GENERATE A PASSWORD
   1) python3 gen.py
